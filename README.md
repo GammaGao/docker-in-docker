@@ -20,3 +20,7 @@ scp -P \<port\> -r \<buildsourcecode\> jenkinsbuild@localhost:/home/jenkinsbuild
 
 ## ssh login dind
 ssh -p \<port\> jenkinsbuild@localhost  
+
+
+# pull from docker hub
+docker pull gammagao/dind  
