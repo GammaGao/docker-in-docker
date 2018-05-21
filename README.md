@@ -7,7 +7,7 @@ Docker in Docker(dind) image based on Amazon Web Services(AWS) official image(am
 - builtin several common go packages
 - ssh login
 
-# build and run
+# dind build and run
 
 ## build dind image
 ./build-dind
