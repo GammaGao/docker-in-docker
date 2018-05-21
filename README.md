@@ -16,7 +16,7 @@ Docker in Docker(dind) image based on Amazon Web Services(AWS) official image(am
 docker run -d -p 22 -v /var/run/docker.sock:/var/run/docker.sock dind-builder-golang:1.0.0-10000  
 
 ## copy code to dind
-scp -P <port> -r <buildsourcecode> jenkinsbuild@localhost:/home/jenkinsbuild/ci-jenkins/  
+scp -P \<port\> -r \<buildsourcecode\> jenkinsbuild@localhost:/home/jenkinsbuild/ci-jenkins/  
 
 ## ssh login dind
-ssh -p <port> jenkinsbuild@localhost  
+ssh -p \<port\> jenkinsbuild@localhost  
